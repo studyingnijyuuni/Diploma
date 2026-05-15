@@ -1,0 +1,51 @@
+.journal-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 100%;
+    background-color: rgb(241, 231, 250);
+  }
+  
+  .journal-left {
+    flex-shrink: 0;
+  }
+  
+  .journal-details {
+    flex-grow: 1;
+  }
+  
+  .journal-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+    transition: color 0.5s;
+    cursor: pointer;
+  }
+  .journal-details h3:hover{
+    color: blueviolet;
+  }
+  
+  .last-updated {
+    font-size: 0.9em;
+    color: #555;
+    margin: 4px 0;
+  }
+  
+  .follow-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+    align-self: center;
+    width: 200px;
+  }
+  
+  .follow-button:hover {
+    background-color: #444;
+  }
+  

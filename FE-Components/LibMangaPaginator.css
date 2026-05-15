@@ -1,0 +1,72 @@
+.manga-list {
+  list-style-type: none;
+  padding: 0;
+  height: 100%;
+}
+
+.manga-list-wrapper{
+  max-height: 90%;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.manga-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ffd5ff;
+  padding: 16px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  background-color: rgb(241, 231, 250);
+}
+
+.manga-image {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.manga-info {
+  flex: 1;
+}
+
+.manga-title {
+  color: black;
+  cursor: pointer;
+  margin: 0 0 8px;
+  font-size: 18px;
+  transition: color 0.5s;
+}
+.manga-title:hover{
+  color: blueviolet;
+}
+
+.manga-description {
+  margin: 0 0 8px;
+  color: #666;
+}
+
+.last-updated {
+  font-size: 14px;
+  color: #888;
+}
+
+.follow-btn {
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+  border: 2px solid blueviolet;
+}
+
+.follow-btn.unfollow {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
